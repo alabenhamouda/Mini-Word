@@ -1,0 +1,27 @@
+body{
+    background-color: #f4faff;
+}
+#paragraph {
+    resize: both;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color:#2a3c50; 
+}
+.panel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.panel>* {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+#color {
+    height: 30px;
+}
+#paragraph {
+    border-radius: 10px;
+}
